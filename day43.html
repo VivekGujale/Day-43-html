@@ -2,32 +2,8 @@
 
 <head>
     <title>Welcome</title>
-    <style>
-        div {
-            height: 50px;
-            display: flex;
-            flex: 1;
-            text-align: center;
-            background-color: rgb(226, 251, 252);
-        }
-
-        .pp {
-            padding-left: 26%;
-            font-size: x-large;
-
-        }
-
-        .form {
-            align-content: center;
-            background: rgb(246, 248, 248);
-            box-shadow: 0px 6px 10x rgb(255, 252, 252);
-            width: 75%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-    
-    </style>
+    <style></style>
+    <link rel="stylesheet" href="./day43.css"> </link>
 </head>
 
 <body style="background: rgb(192, 221, 221)" ;>
@@ -48,9 +24,39 @@
         <table style="padding-left: 30%;">
             <tr>
                 <td>Name</td>
-                <td>:</td>
                 <td><input type="text" id="Name"></td>
             </tr>
+
+            <tr>
+                <td>Profile</td>
+                <td id="Profile">
+                    <div>
+                        <label class="radio">
+                            <input type="radio" id="profiles" name="prfiles">
+                            <img src="D:/html/ph1.png" ;></img>
+                        </label>
+
+                        <label class="radio">
+                            <input type="radio" id="profiles" name="prfiles">
+                            <img src="D:/html/ph3.png" ;></img>
+                        </label>
+
+                        <label class="radio">
+                            <input type="radio" id="profiles" name="prfiles">
+                            <img src="D:/html/ph2.png" ;></img>
+                        </label>
+
+                        <label class="radio">
+                            <input type="radio" id="profiles" name="prfiles">
+                            <img src="D:/html/ph4.png" ;></img>
+                        </label>
+                        
+                    </div>
+                </td>
+            </tr>
+
+
+
         </table>
     </form>
 </body>
