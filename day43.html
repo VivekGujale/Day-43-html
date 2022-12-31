@@ -3,7 +3,8 @@
 <head>
     <title>Welcome</title>
     <style></style>
-    <link rel="stylesheet" href="./day43.css"> </link>
+    <link rel="stylesheet" href="./day43.css">
+    </link>
 </head>
 
 <body style="background: rgb(192, 221, 221)" ;>
@@ -24,7 +25,7 @@
         <table style="padding-left: 30%;">
             <tr>
                 <td>Name</td>
-                <td><input type="text" id="Name"></td>
+                <td><input type="text" id="Name" value=""></td>
             </tr>
 
             <tr>
@@ -32,32 +33,71 @@
                 <td id="Profile">
                     <div>
                         <label class="radio">
-                            <input type="radio" id="profiles" name="prfiles">
+                            <input type="radio" id="profile1" name="profile1" value="profile1">
                             <img src="D:/html/ph1.png" ;></img>
                         </label>
 
                         <label class="radio">
-                            <input type="radio" id="profiles" name="prfiles">
-                            <img src="D:/html/ph3.png" ;></img>
+                            <input type="radio" id="profile2" name="profile2" value="profile2">
+                            <img src=" D:/html/ph3.png" ;></img>
                         </label>
 
                         <label class="radio">
-                            <input type="radio" id="profiles" name="prfiles">
-                            <img src="D:/html/ph2.png" ;></img>
+                            <input type="radio" id="profile3" name="profile3" value="profile3">
+                            <img src=" D:/html/ph2.png" ;></img>
                         </label>
 
                         <label class="radio">
-                            <input type="radio" id="profiles" name="prfiles">
-                            <img src="D:/html/ph4.png" ;></img>
+                            <input type="radio" id="profile4" name="profile4" value="profile4">
+                            <img src=" D:/html/ph4.png"></img>
                         </label>
-                        
                     </div>
                 </td>
             </tr>
 
+            <tr>
+                <td>Gender</td>
+                <td id="gender">
+                    <div>
+                        <label class="radio">
+                            <input type="radio" id="Male" name="gender" value="Male">Male </input>
+                        </label>
+                        <label class="radio">
+                            <input type="radio" id="Female" name="gender" value="Female">Female</input>
+                        </label>
+                    </div>
+                </td>
+            </tr>
 
+            <tr>
+                <td>Department</td>
+                <td id="Department">
+                    <div>
+                        <sec4 class="radio">
+                            <input type="checkbox" id="HR" name="HR" value="HR">HR
+                            <input type="checkbox" id="Sales" name="Sales" value="Sales">Sales
+                            <input type="checkbox" id="Finance" name="Finance" value="Finance">Finance
+                            <input type="checkbox" id="Engineer" name="Engineer" value="Engineer">Engineer
+                            <input type="checkbox" id="Others" name="Others" value="Others">Others
+                        </sec4>
+                    </div>
+                </td>
+            </tr>
 
-        </table>
+            <tr>
+                <td>Salary</td>
+                <td id="salary">
+                    <select>
+                        <option>choose your salary</option>
+                        <option>300000</option>
+                        <option>400000</option>
+                        <option>500000</option>
+                        <option>600000</option>
+                        <option>700000</option>
+
+                    </select>
+                </td>
+            </tr>
     </form>
 </body>
 
