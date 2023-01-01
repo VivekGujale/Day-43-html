@@ -26,3 +26,10 @@ div {
     display: flex;
 
 }
+
+.button {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 7px 7px;
+    border: 1px solid #969696;
+}

@@ -86,7 +86,7 @@
 
             <tr>
                 <td>Salary</td>
-                <td id="salary">
+                <td style="height:30px;" id="salary">
                     <select>
                         <option>choose your salary</option>
                         <option>300000</option>
@@ -96,11 +96,11 @@
                         <option>700000</option>
                     </select>
                 </td>
-            <tr></tr>
+
 
             <tr>
                 <td>Start Date</td>
-                <td id="start date">
+                <td style="height:50px;" id="start date">
                     <select id="Day" name="Day">
                         <option>Day</option>
                         <option value="1">1</option>
@@ -161,8 +161,45 @@
                         <option value="2019">2019</option>
                         <option value="2018">2018</option>
                     </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Notes</td>
+                <td style="height:70px" id="notes">
+                    <input style="height:50px" type="text" id="notes" name="notes">
+                </td>
+            </tr>
 
     </form>
+    <tr class="button" style="height:80px">
+
+        <td>
+            <button class="cancelButton" onclick="myFunctionCancel()">Cancel</button>
+            <script>
+                function myFunctionCancel() {
+                    alert('Form Cancelled');
+                }
+            </script>
+
+        <td style="padding-left: 40%;">
+            <button class="submitButton" onclick="myFunctionSubmit()">Submit</button>
+            <script>
+                function myFunctionSubmit() {
+                    alert('Form Submitted');
+                }
+            </script>
+
+        <td>
+            <button class="resetButton" onclick="myFunctionReset()">Reset</button>
+            <script>
+                function myFunctionReset() {
+                    alert('Form Reset');
+                }
+            </script>
+        </td>
+    </tr>
+
 </body>
 
 </html>
