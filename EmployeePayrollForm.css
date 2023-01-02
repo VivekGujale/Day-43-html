@@ -28,8 +28,12 @@ div {
 }
 
 .button {
-    font-size: 15px;
+    height: 30px;
+    font-size: 12px;
     font-weight: 400;
     padding: 7px 7px;
-    border: 1px solid #969696;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(79, 167, 202);
+
 }
